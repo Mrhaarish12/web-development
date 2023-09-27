@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1: Favorite Foods </title>
+    <style>
+        #topbar{
+            background-color: deepskyblue;
+            padding: 24px;
+        }
+
+        .menu-item{
+            font-size: 24px;
+            padding: 8px;
+            font-weight: 600;
+        }
+        #list-heading{
+            font-style: 24px;
+            padding: 10px;
+        }
+
+        .food-list-item{
+            font-size: 20px;
+        
+        }
+
+        .food-image{
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .food-wrapper{
+            text-align: center;
+        }
+
+        table{
+            width: 600px;
+        }
+
+        table,td,th{
+            border: 1px solid #2e2e2e;
+            border-collapse: collapse;
+            font-size: 22px;
+        }
+
+        td,th{
+            padding: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color:darkgrey;">
+    <div id="topbar" style="margin: auto;">
+        <span class="menu-item">Index</span>
+        <span class="menu-item">Food</span>
+        <span class="menu-item">About</span>
+    </div>
+
+    <h3 id="list-heading">Top 5 Favourite Foods: </h3>
+    <ul type="disc">
+        <li><a class="food-list-item" href="#biryanui">Biryani</a></li>
+        <li><a class="food-list-item" href="#pizza">Pizza</a></li>
+        <li><a class="food-list-item" href="#burger">Burger</a></li>
+        <li><a class="food-list-item" href="#momos">Momos</a></li>
+        <li><a class="food-list-item" href="#kabsa">Kabsa</a></li>
+    </ul>
+
+    <div class="food-wrapper">
+        <img class="food-image" id="biryani" src="assets\biryani.jpg" alt="">
+        <p>Biryani</p>
+    </div>
+    <div class="food-wrapper">
+        <img class="food-image" id="pizza" src="assets\pizza.webp" alt="">
+        <p>Pizza</p>
+    </div>
+    <div class="food-wrapper">
+        <img class="food-image" id="burger" src="assets\burger.webp" alt="">
+        <p>Burger</p>
+    </div>
+    <div class="food-wrapper">
+        <img class="food-image" id="momos" src="assets\momos.jpg" alt="">
+        <p>Momos</p>
+    </div>
+    <div class="food-wrapper">
+        <img class="food-image" id="kabsa" src="assets\kabsa.jpg" alt="">
+        <p>Kabsa</p>
+    </div>
+    
+
+    <table>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thur</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Drawing</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Craft</td>
+            <td>Geography</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Drawing</td>
+            <td>craft</td>
+            <td>Maths</td>
+            <td>Geography</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>PT</td>
+        </tr>
+
+        <tr>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Drawing</td>
+            <td>History</td>
+        </tr>
+    </table>
+</body>
+</html>
